@@ -35,9 +35,9 @@ function updateItems(items, key, value) {
     const allItems = document.querySelectorAll('.item');
     allItems.forEach(item => {
         if(item.dataset[key] === value){
-            item.classList.add('invisible');
-        }else{
             item.classList.remove('invisible');
+        }else{
+            item.classList.add('invisible');
         } 
     });
 }
