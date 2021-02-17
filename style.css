@@ -21,6 +21,8 @@ body{
   height: 100vh;
 }
 
+
+
 .logo{
   cursor: pointer;
 }
@@ -65,12 +67,20 @@ body{
   background-color: var(--color-pink);
 }
 
+.invisible{
+  display: none;
+}
+
+.items::-webkit-scrollbar{
+  display: none;
+}
 .items{
   list-style: none;
   height: 60%;
   width: 60%;
   padding-left: 0;
-  overflow-y: scroll;
+  overflow-y: auto;
+  
 }
 
 .item{
@@ -78,7 +88,9 @@ body{
   align-items: center;
   background-color: var(--color-white);
   padding: 12px;
+  margin: 12px 0;
 }
+
 
 .item__thumbnail{
   width: 50px;
@@ -88,3 +100,4 @@ body{
 .item__description{
   margin-left: 12px;
 }
+
