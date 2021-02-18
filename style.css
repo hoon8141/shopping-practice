@@ -67,10 +67,6 @@ body{
   background-color: var(--color-pink);
 }
 
-.invisible{
-  display: none;
-}
-
 .items::-webkit-scrollbar{
   display: none;
 }
@@ -91,6 +87,9 @@ body{
   margin: 12px 0;
 }
 
+.invisible{
+  display: none;
+}
 
 .item__thumbnail{
   width: 50px;
